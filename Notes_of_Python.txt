@@ -1,0 +1,62 @@
+fallible operators of python
+
+Division(/)
+3 / 4 = 0.75 (result is a floating-point value)
+
+Floor Division(//)
+3 // 4 = 4 // 3 = 1 (it dumps the digits after the decimal)
+
+Modulus(%)
+3 % 4 = 3 (divides and returns the value of remainder)
+10.5 % 3 = 1.5
+
+Divide and Assign(/=)
+a = 2
+a /= 5 (results that a = 2 / 5 = 0.4) (divides the value on the left by the one on the right)
+
+Modulus and Assign(%=)
+a = 7
+a %= 5 (results that a = 2 = 7 % 5) (performs modulus on the values on either side)
+
+Assignment Operator X= => a X= b <=> a = a X b
+
+identity operator: is 
+if 2 operands have the same identity, it returns True.
+  a = 222
+  b = 222
+  a is b = True
+  a = 223
+  b = 223
+  a is b = False
+  
+  
+  
+Binary AND(&)
+  It performs bit by bit AND operation on the 2 values.
+  2 & 3 = 2  # 2 = 10(binary), 3 = 11(binary), 10 & 11 = 10(binary) = 2
+  3 & 4 = 0  # 3 = 11, 4 = 100, 11 & 100 = 000 = 0
+  some facts: 1) n & n = n
+  
+Binary OR(|)
+  It performs bit by bit OR on the two values.
+  2 | 3 = 3  # 2 = 10, 3 = 11, 10 | 11 = 11 = 3
+  
+Binary XOR(^)
+  It performs bit by bit XOR(exclusive-OR) on the two values.
+  2 ^ 3 = 1  # 2 = 10, 3 = 11, 10 ^ 11 = 01 = 1
+  
+Binary One's Complement(~)
+  It returns the one’s complement of a number’s binary.
+  ~-3 = 2
+  ~0 = -1
+  ~1 = -2
+  
+Binary Left-Shift(<<)
+  It shifts the value of the left operand the number of places to the left that the right operand specifies.
+  2 << 2 = 8
+  
+Binary Right-Shift(>>)
+  It shifts the value of the left operand the number of places to the right that the right operand specifies.
+  3 >> 2 = 0
+  3 >> 1 = 1
+  
